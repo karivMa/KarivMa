@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배구지수 검색</title>
+</head>
+<body>
+    <h1>배구지수 검색</h1>
+    <form action="/search" method="GET">
+        <label for="school">학교 이름:</label>
+        <input type="text" id="school" name="school" placeholder="학교 이름을 입력하세요">
+        <label for="region">지역:</label>
+        <input type="text" id="region" name="region" placeholder="지역을 입력하세요">
+        <button type="submit">검색</button>
+    </form>
+</body>
+</html>
